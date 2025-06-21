@@ -59,7 +59,7 @@ def edit_image_page():
     with col1:
         prompt = st.text_input("Enter prompt")
     with col2:
-        model = st.selectbox("Model",("dall-e-2","gpt-image-1"))
+        model = st.selectbox("Model",("gpt-image-1"))
     edit_button = st.button("Edit All Images")
     if uploaded_files and edit_button and prompt:
         image_paths = []
