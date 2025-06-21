@@ -26,7 +26,7 @@ def encode_image(image_path):
         return base64.b64encode(image_file.read()).decode("utf-8")
 
 def analyze_image(client,prompt,image_path,model="gpt-4.1"):
-
+    
     response = client.responses.create(
         model=model,
         input=[
