@@ -41,7 +41,7 @@ def analyze_image_page():
     with col2:
         model = st.selectbox("Model",("gpt-4.1-mini","gpt-4o-mini"))
 
-    analyse_button = st.button("Analyse")
+    analyse_button = st.button("Analyse Image")
     if analyse_button and prompt and uploaded_files:
         for file in uploaded_files:
                 input_path = f"uploaded_{file.name}"
