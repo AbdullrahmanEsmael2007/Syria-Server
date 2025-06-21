@@ -1,4 +1,2 @@
 openai==1.56.0
-os==0.1.0
-base64==0.1.0
 streamlit==1.46.1
