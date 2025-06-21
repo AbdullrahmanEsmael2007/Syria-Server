@@ -1,4 +1,3 @@
 openai==1.56.0
 os
 base64
-streamlit==1.46.1
