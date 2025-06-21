@@ -27,7 +27,7 @@ def encode_image(image_path):
 
 def analyze_image(client,prompt,image_path,model="gpt-4.1"):
     
-    response = client.responses.create(
+    response = client.responses.create( 
         model=model,
         input=[
             {
